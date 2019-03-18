@@ -1,10 +1,10 @@
-# Project Name
+# Sports app
 
-*[Demo](https://link-to-github-pages.com)*
+*[Demo](https://jukachu.github.io/sports-app-landing/src/index.html)*
 
 ## Description
 
-*Tell about your project*
+*Mobile app for watching football matches*
 
 ## Technologies are used
 
