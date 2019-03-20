@@ -9,6 +9,5 @@
 ## Technologies are used
 
 - *HTML*
-- *CSS*
-- *Some other cool stuff*
+- In the future we will add some *CSS* and *JS*<BR>
 "# sports-app-landing" 
