@@ -1,7 +1,114 @@
-* {
+html,
+body {
+  margin: 0 auto;
+  max-width: 1440px;
   box-sizing: border-box;
+  height: 100%;
+}
+
+html {
+  --main-font: "LatoWeb", sans-seif;
+  --h-font: "LatoWebBold", serif;
+  --header-color: #f4f6f9;
+  --main-font-color: #333;
+  --font-color: #4f4f4f;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  max-width: 1440px;
+  min-height: 665px;
+  background: var(--header-color) url("./img/header-background.png") no-repeat right;
+  background-size: contain;
+}
+
+h1,
+p {
   margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.title-text {
+  font-family: var(--h-font);
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 1;
+  max-width: 546px;
+  padding: 63px 0 0 163px;
+}
+
+.description {
+  margin: 0;
+  padding-top: 133px;
+}
+
+.desc-text {
+  font-family: var(--main-font);
+  color: var(--font-color);
+  max-width: 453px;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 25px;
+}
+
+.download {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin-top: 50px;
+}
+
+.apps:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.second-container {
+  display: flex;
+  min-height: 598px;
+  justify-content: space-between;
+}
+
+.chelsea-arsenal {
+  width: 50%;
+  background: linear-gradient(270deg, white 5%, #fff0 70%), url("./img/apps-background.png") no-repeat ;
+}
+
+.description-app {
+  width: 100px;
+}
+
+@font-face {
+  font-family: "LatoWebBold";
+  src: url("./fonts/Lato-Bold.woff"); /* IE9 Compat Modes */
+  src: url("./fonts/Lato-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoWeb";
+  src: url("./fonts/Lato-Regular.woff"); /* IE9 Compat Modes */
+  src: url("./fonts/Lato-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
