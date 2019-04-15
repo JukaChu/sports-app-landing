@@ -63,7 +63,7 @@ p {
   align-items: flex-start;
   flex-shrink: 1;
   max-width: 546px;
-  padding: 63px 0 0 0;
+  padding: 63px 0 0;
 }
 
 .description {
