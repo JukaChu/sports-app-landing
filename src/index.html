@@ -5,23 +5,27 @@
   <title>Sportst</title>
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.extensions.min.js"></script>
+  <link rel="stylesheet" href="lib/wowjs/animate.css">
+  <script src="lib/wowjs/wow.min.js"></script>
 </head>
 <body>
 <header>
   <div class="container">
     <div class="wrapper">
       <div class="header">
-        <div class="logo">
+        <div class="logo wow bounceInDown">
           <a href="javascript:void(0)">
             <img src="img/LOGO.png" alt="sports">
           </a>
         </div>
         <div class="description">
-          <h1 class="title-text">Get a personalized football experience tailored just for you
+          <h1 class="title-text wow slideInLeft">Get a personalized football experience tailored just for you
           </h1>
-          <p class="desc-text">Achieve super-fan status by getting tailored updates and up-to-the-minute information on
+          <p class="desc-text wow slideInLeft">Achieve super-fan status by getting tailored updates and up-to-the-minute information
+            on
             your team.</p>
-          <div class="download"><a href="javascript:void(0)">
+          <div class="download wow bounceInUp"><a href="javascript:void(0)">
             <img src="img/apple_store.svg" alt="applestore" class="apps">
           </a>
             <a href="javascript:void(0)">
@@ -36,6 +40,7 @@
 <main>
   <div class="container">
     <section class="second-container">
+      <!--<div class="wrapper">-->
       <div class="chelsea-arsenal">
         <div class="ca-form">
           <div class="ca-form__game">
@@ -94,9 +99,11 @@
           <img src="img/Group_7.1.png" alt="phn">
           <img src="img/ring.svg" class="bells" alt="">
           <img src="img/phone-in.svg" class="mobile-icon" alt="">
-          <div class="dot"></div>
           <div class="circle1"></div>
           <div class="circle2"></div>
+          <div class="circle2-dot">
+            <div class="dot"></div>
+          </div>
           <div class="circle3"></div>
           <div class="circle4"></div>
           <div class="circle5"></div>
@@ -107,42 +114,62 @@
       </div>
     </section>
   </div>
-  <section><h2>Features That Will Tailor Your Experience</h2>
-    <ul>
-      <li><img src="img/list1.png" alt="comment">Video highlights for every Premier League and English Football League
-        game
-      </li>
-      <li><img src="img/list2.png" alt="comment">Notifications for your teams, including in-game goal clips and
-        Premier
-        League match highlights for Sky TV subscribers with Guardian
-      </li>
-      <li><img src="img/list3.png" alt="comment">Brand new video section including dedicated areas for your chosen
-        team,
-        trending video, Premier League, Football league and other major leagues
-      </li>
-      <li><img src="img/list4.png" alt="comment">Match pages showing live scores, commentary, team line-ups and
-        enhanced
-        match stats to keep you up-to-date on all the action
-      </li>
-      <li><img src="img/list5.png" alt="comment">The new picture in picture video mode means you can watch goals,
-        manager
-        interviews and more whilst using other areas of the app – so you don’t need to miss any of the action
-      </li>
-      <li><img src="img/list6.png" alt="comment">Live updated league tables including all the domestic, European and
-        major
-        leagues and tournaments
-      </li>
-      <li><img src="img/list7.png" alt="comment">The Guardian News Vidiprinter. Follow the goals as they go in with
-        our
-        new and improved Vidiprinter
-      </li>
-      <li><img src="img/list8.png" alt="comment">Match reports, previews and a dedicated news section</li>
-      <li><img src="img/list9.png" alt="comment">And you can achieve super-fan status by personalising your home page
-        with
-        up-to-the-minute information on your team.
-      </li>
-    </ul>
-  </section>
+  <div class="container">
+    <section class="fourth-container">
+      <h2 class="fourth-container__title">Features That Will Tailor Your Experience</h2>
+      <div class="fourth-container__lists">
+        <ul class="fourth-container__list">
+          <li><img src="img/list1.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">Video highlights for every Premier League and English Football
+              League
+              game</p>
+          </li>
+          <li><img src="img/list2.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">Notifications for your teams, including in-game goal clips and
+              Premier
+              League match highlights for Sky TV subscribers with Guardian</p>
+          </li>
+          <li><img src="img/list3.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">Brand new video section including dedicated areas for your chosen
+              team,
+              trending video, Premier League, Football league and other major leagues</p>
+          </li>
+        </ul>
+        <ul class="fourth-container__list">
+          <li><img src="img/list4.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">Match pages showing live scores, commentary, team line-ups and
+              enhanced
+              match stats to keep you up-to-date on all the action</p>
+          </li>
+          <li><img src="img/list5.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">The new picture in picture video mode means you can watch goals,
+              manager
+              interviews and more whilst using other areas of the app – so you don’t need to miss any of the action</p>
+          </li>
+          <li><img src="img/list6.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">Live updated league tables including all the domestic, European and
+              major
+              leagues and tournaments</p>
+          </li>
+        </ul>
+        <ul class="fourth-container__list">
+          <li><img src="img/list7.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">The Guardian News Vidiprinter. Follow the goals as they go in with
+              our
+              new and improved Vidiprinter</p>
+          </li>
+          <li><img src="img/list8.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">Match reports, previews and a dedicated news section</p></li>
+          <li><img src="img/list9.svg" class="fourth-container__img" alt="comment">
+            <p class="fourth-container__list-text">And you can achieve super-fan status by personalising your home
+              page
+              with
+              up-to-the-minute information on your team.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
   <section>
     <h2>What Our Users Say</h2>
     <ul>
@@ -189,9 +216,9 @@
       Get up close with your team
     </h2>
     <p>
-      If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support two
-      clubs!), you can choose the scores and competitions that matter to you using the ‘My Scores’ section. So, make
-      sure you’re a top-flight football fan by downloading the Football Score Centre now. It’s got all this:
+      If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support<br> two
+      clubs!), you can choose the scores and competitions <br>that matter to you using the ‘My Scores’ section. So, make
+      sure you’re a top-flight football fan by <br>downloading the Football Score Centre now. It’s got all this:
     </p>
     <a href="javascript:void(0)">
       <img src="img/apple_store.png" alt="applestore">
@@ -220,6 +247,8 @@
     </ul>
   </nav>
 </footer>
-
+<script>
+  new WOW().init();
+</script>
 </body>
 </html>
