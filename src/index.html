@@ -5,32 +5,33 @@
   <title>Sportst</title>
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.extensions.min.js"></script>
   <link rel="stylesheet" href="../lib/wowjs/animate.css">
   <script src="../lib/wowjs/wow.min.js"></script>
+  <link rel="stylesheet" href="../lib/glide/dist/css/glide.core.min.css">
+  <script src="../lib/glide/dist/glide.min.js"></script>
 </head>
 <body>
 <header>
   <div class="container">
     <div class="wrapper">
       <div class="header">
-        <div class="logo wow bounceInDown">
+        <div class="logo">
           <a href="javascript:void(0)">
             <img src="img/LOGO.png" alt="sports">
           </a>
         </div>
         <div class="description">
-          <h1 class="title-text wow slideInLeft">Get a personalized football experience tailored just for you
+          <h1 class="title-text">Get a personalized football experience tailored just for you
           </h1>
-          <p class="desc-text wow slideInLeft">Achieve super-fan status by getting tailored updates and up-to-the-minute
+          <p class="desc-text">Achieve super-fan status by getting tailored updates and up-to-the-minute
             information
             on
             your team.</p>
-          <div class="download wow bounceInUp"><a href="javascript:void(0)">
+          <div class="download"><a href="javascript:void(0)">
             <img src="img/apple_store.svg" alt="applestore" class="apps">
           </a>
             <a href="javascript:void(0)">
-              <img src="img/google_play.svg" alt="googleplay" class="apps">
+              <img src="img/google_play.png" alt="googleplay" class="apps">
             </a>
           </div>
         </div>
@@ -43,7 +44,7 @@
     <section class="second-container">
       <!--<div class="wrapper">-->
       <div class="chelsea-arsenal">
-        <div class="ca-form">
+        <div class="ca-form wow fadeInLeft" data-wow-delay="0.2s">
           <div class="ca-form__game">
             <div class="datetime">
               <time datetime="2019-03-23T12:35:00" class="time"> Sat, 12:35pm</time>
@@ -60,20 +61,24 @@
             <label for="football" class="turn-on">Turn on all match notifications</label>
           </form>
         </div>
-        <video src="img/videoplay.mp4" controls="controls" poster="./img/poster.png" class="video"></video>
+        <video src="img/videoplay.mp4" controls="controls" poster="./img/poster.png" class="video wow fadeInUp"
+               data-wow-delay="0.2s"></video>
       </div>
       <div class="description-app">
-        <p class="description-app__p-first">what it does</p>
-        <p class="description-app__h-first">An Enhanced Football Experience</p>
-        <p class="description-app__p-second"> The Guardian Live Scores app is your go to app for live scores and
+        <p class="description-app__p-first wow fadeInDown" data-wow-delay="0.2s">what it does</p>
+        <p class="description-app__h-first wow fadeInDown" data-wow-delay="0.2s">An Enhanced Football Experience</p>
+        <p class="description-app__p-second wow slideInRight" data-wow-delay="0.2s"> The Guardian Live Scores app is
+          your go to app for live scores and
           watching Premier League goals… Get in
           there,
           what a result!</p>
-        <p class="description-app__p-second">As well as videos of all the goals, you can watch match highlights, check
+        <p class="description-app__p-second wow slideInRight" data-wow-delay="0.2s">As well as videos of all the goals,
+          you can watch match highlights, check
           out the latest scores
           and
           results and stay bang-up-to-date with the big football stories from The Guardian publication.</p>
-        <a href="javascript:void(0)" class="description-app__link"><h3 class="description-app__h-last">Learn more</h3>
+        <a href="javascript:void(0)" class="description-app__link "><h3 class="description-app__h-last wow fadeInUp"
+                                                                        data-wow-delay="0.2s">Learn more</h3>
         </a>
       </div>
     </section>
@@ -97,9 +102,9 @@
       </div>
       <div class="phone">
         <div class="phone__circle">
-          <img src="img/Group_7.1.png" alt="phn">
-          <img src="img/ring.svg" class="bells" alt="">
-          <img src="img/phone-in.svg" class="mobile-icon" alt="">
+          <img class="wow slideInUp" src="img/Group_7.1.png" alt="phn">
+          <img  src="img/ring.svg" class="bells wow bounceInRight" data-wow-delay="0.2s" alt="">
+          <img  src="img/phone-in.svg" class="mobile-icon wow bounceInRight"data-wow-delay="0.3s"  alt="">
           <div class="circle1"></div>
           <div class="circle2"></div>
           <div class="circle2-dot">
@@ -117,9 +122,9 @@
   </div>
   <div class="container">
     <section class="fourth-container">
-      <h2 class="fourth-container__title">Features That Will Tailor Your Experience</h2>
+      <h2 class="fourth-container__title wow fadeInUp">Features That Will Tailor Your Experience</h2>
       <div class="fourth-container__lists">
-        <ul class="fourth-container__list">
+        <ul class="fourth-container__list wow fadeInUp">
           <li><img src="img/list1.svg" class="fourth-container__img" alt="comment">
             <p class="fourth-container__list-text">Video highlights for every Premier League and English Football
               League
@@ -136,7 +141,7 @@
               trending video, Premier League, Football league and other major leagues</p>
           </li>
         </ul>
-        <ul class="fourth-container__list">
+        <ul class="fourth-container__list wow fadeInUp">
           <li><img src="img/list4.svg" class="fourth-container__img" alt="comment">
             <p class="fourth-container__list-text">Match pages showing live scores, commentary, team line-ups and
               enhanced
@@ -153,7 +158,7 @@
               leagues and tournaments</p>
           </li>
         </ul>
-        <ul class="fourth-container__list">
+        <ul class="fourth-container__list wow fadeInUp">
           <li><img src="img/list7.svg" class="fourth-container__img" alt="comment">
             <p class="fourth-container__list-text">The Guardian News Vidiprinter. Follow the goals as they go in with
               our
@@ -171,39 +176,97 @@
       </div>
     </section>
   </div>
-  <section>
-    <h2>What Our Users Say</h2>
-    <ul>
-      <li>
-        <h3>Noah Jackson</h3>
-        <a href="javascript:void(0)"><img src="img/twitter.png" alt="twitter"></a>
-        <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's a
-          shame
-          it won't rotate into landscape mode like its main competitor</p>
-      </li>
-      <li>
-        <h3>Darren Wilson</h3>
-        <a href="javascript:void(0)"><img src="img/twitter.png" alt="twitter"></a>
-        <p>Good for scores and commentary but the team lineups have stopped working.</p>
-      </li>
-      <li>
-        <h3>Michael Akinuli</h3>
-        <a href="javascript:void(0)"><img src="img/twitter.png" alt="twitter"></a>
-        <p>Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch
-          highlights on March of the day also no need of sky go </p>
-      </li>
-      <li>
-        <h3>Sarah Udoma</h3>
-        <a href="javascript:void(0)"><img src="img/twitter.png" alt="twitter"></a>
-        <p>This app has videos for other premier league teams who play and it also gives me nofications when my
-          favourite
-          team plays </p>
-      </li>
-    </ul>
-  </section>
-  <div>
-    <h2>We have been featured in</h2>
-    <ul>
+  <div class="fives-container">
+    <h2 class="fives-container__title general-title">What Our Users Say</h2>
+
+    <div class="glide">
+      <div class="buttons_control" data-glide-el="controls">
+        <button class="button_left" data-glide-dir="<"></button>
+        <button class="button_right" data-glide-dir=">"></button>
+      </div>
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <div class="card">
+              <div class="card__user-data">
+                <a href="https://twitter.com/" class="card__user-data__link">
+                  <img src="./img/twit_avatar1.png" alt="avatar">
+                  <span class="card__user-data__name">Noah Jackson</span>
+                </a>
+              </div>
+              <a href="https://twitter.com/" class="twitter-icon"><img src="img/twitter.svg" alt="twitter"></a>
+              <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's
+                a
+                shame
+                it won't rotate into landscape mode like its main competitor</p>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="card">
+              <div class="card__user-data">
+                <a href="https://twitter.com/" class="card__user-data__link">
+                  <img src="./img/twit_avatar2.png" alt="avatar">
+                  <span class="card__user-data__name">Darren Wilson</span>
+                </a>
+              </div>
+              <a href="https://twitter.com/" class="twitter-icon"><img src="img/twitter.svg" alt="twitter"></a>
+              <p>Good for scores and commentary but the team lineups have stopped working.</p>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="card">
+              <div class="card__user-data">
+                <a href="https://twitter.com/" class="card__user-data__link">
+                  <img class="photo__coach" src="./img/dm-rdn.png" alt="avatar">
+                  <span class="card__user-data__name">Dmytro Rudnytskykh</span>
+                </a>
+              </div>
+              <a href="https://twitter.com/" class="twitter-icon"><img src="img/twitter.svg" alt="twitter"></a>
+              <p>Not bad application, but developer of this site can do it better.
+                <ins>Ne po bemu.</ins>
+              </p>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="card">
+              <div class="card__user-data">
+                <a href="https://twitter.com/" class="card__user-data__link">
+                  <img src="./img/twit_avatar3.png" alt="avatar">
+                  <span class="card__user-data__name">Michael Akinuli</span>
+                </a>
+              </div>
+              <a href="https://twitter.com/" class="twitter-icon"><img src="img/twitter.svg" alt="twitter"></a>
+              <p>Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch
+                highlights on March of the day also no need of sky go</p>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div class="card">
+              <div class="card__user-data">
+                <a href="https://twitter.com/" class="card__user-data__link">
+                  <img src="./img/twit_avatar4.png" alt="avatar">
+                  <span class="card__user-data__name">Sarah Udoma</span>
+                </a>
+              </div>
+              <a href="https://twitter.com/" class="twitter-icon"><img src="img/twitter.svg" alt="twitter"></a>
+              <p>This app has videos for other premier league teams who play and it also gives me nofications when my
+                favourite team plays</p>
+            </div>
+          </li>
+        </ul>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="bullets__slides" data-glide-dir="=0"></button>
+          <button class="bullets__slides glide__bullet--active" data-glide-dir="=1"></button>
+          <button class="bullets__slides" data-glide-dir="=2"></button>
+          <button class="bullets__slides" data-glide-dir="=3"></button>
+          <button class="bullets__slides" data-glide-dir="=4"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sixth-container">
+    <h2 class="sixth-container__title general-title">We have been featured in</h2>
+    <ul class="partners-list">
       <li><a href="javascript:void(0)"><img src="img/feat1.png" alt="feat"></a></li>
       <li><a href="javascript:void(0)"><img src="img/feat2.png" alt="feat"></a></li>
       <li><a href="javascript:void(0)"><img src="img/feat3.png" alt="feat"></a></li>
@@ -212,44 +275,79 @@
       <li><a href="javascript:void(0)"><img src="img/feat6.png" alt="feat"></a></li>
     </ul>
   </div>
-  <div>
-    <h2>
-      Get up close with your team
-    </h2>
-    <p>
-      If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support<br> two
-      clubs!), you can choose the scores and competitions <br>that matter to you using the ‘My Scores’ section. So, make
-      sure you’re a top-flight football fan by <br>downloading the Football Score Centre now. It’s got all this:
-    </p>
-    <a href="javascript:void(0)">
-      <img src="img/apple_store.png" alt="applestore">
-    </a>
-    <a href="javascript:void(0)">
-      <img src="img/google_play.png" alt="googleplay">
-    </a>
-  </div>
+  <div class="seventh-container">
+    <div class="seventh-container__description">
+      <h2 class="seventh-container__title general-title">
+        Get up close with your team
+      </h2>
+      <p class="description__text">
+        If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support two
+        clubs!), you can choose the scores and competitions that matter to you using the ‘My Scores’ section. So,
+        make
+        sure you’re a top-flight football fan by downloading the Football Score Centre now. It’s got all this:
+      </p>
+      <div class="download">
+        <a href="javascript:void(0)">
+          <img src="img/apple_store.svg" alt="applestore">
+        </a>
+        <a href="javascript:void(0)">
+          <img src="img/google_play.png" alt="googleplay">
+        </a>
+      </div>
+    </div>
   </div>
 </main>
 <footer>
-  <a href="javascript:void(0)">
-    <img src="img/LOGO.png" alt="sports">
+  <a class="footer-logo" href="javascript:void(0)">
+    <img src="img/logo-footer.svg" alt="sports">
   </a>
-  <nav>
-    <ul>
-      <li><a href="javascript:void(0)">Download</a></li>
-      <li><a href="javascript:void(0)">Support</a></li>
-      <li><a href="javascript:void(0)">Developers</a></li>
-      <li><a href="javascript:void(0)">Privacy</a></li>
-    </ul>
-    <ul>
-      <li><a href="javascript:void(0)"><img src="img/foot1.png" alt="foot"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/foot2.png" alt="foot"></a></li>
-      <li><a href="javascript:void(0)"><img src="img/foot3.png" alt="foot"></a></li>
-    </ul>
-  </nav>
+
+  <ul class="navigation product">
+    <li><a class="product_link" href="javascript:void(0)">Download</a></li>
+    <li><a class="product_link" href="javascript:void(0)">Support</a></li>
+    <li><a class="product_link" href="javascript:void(0)">Developers</a></li>
+    <li><a class="product_link" href="javascript:void(0)">Privacy</a></li>
+  </ul>
+  <ul class="navigation social">
+    <li><a class="social_link" href="javascript:void(0)"><img src="img/twitter_footer.svg" alt="foot"></a></li>
+    <li><a class="social_link" href="javascript:void(0)"><img src="img/facebook_footer.svg" alt="foot"></a></li>
+    <li><a class="social_link" href="javascript:void(0)"><img src="img/insta_footer.svg" alt="foot"></a></li>
+  </ul>
 </footer>
 <script>
   new WOW().init();
+</script>
+<script>
+  new Glide('.glide', {
+    type: "carousel",
+    startAt: 1,
+    gap: 36,
+    width: 310,
+    slidesWidth: 310,
+    peek: {
+      before: 134,
+      after: 230
+    },
+    breakpoints: {
+      600: {perView: 1},
+      1260: {
+        perView: 2,
+        gap: 36
+      },
+      1600: {
+        perView: 3,
+        gap: 36
+      },
+      2100: {
+        perView: 4,
+        gap: 36
+      },
+      3000: {
+        perView: 5,
+        gap: 36
+      }
+    },
+  }).mount()
 </script>
 </body>
 </html>
