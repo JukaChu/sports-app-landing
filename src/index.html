@@ -337,30 +337,46 @@
 <script>
   new Glide('.glide', {
     type: "carousel",
-    startAt: 0,
-    focusAt: 'center',
-    gap: 36,
-    width: 310,
-    slidesWidth: 310,
     breakpoints: {
-      600: {perView: 1,
-      peek: 0
+      1000: {
+        focusAt: 'center',
+        perView: 2,
+        gap: 50,
+        peek: 0,
       },
       1260: {
         perView: 2,
-        gap: 36
+        gap: 80,
+        peek: {
+          before: 134,
+          after: 200
+        },
       },
       1600: {
         perView: 3,
-        gap: 36
+        gap: 36,
+        peek: {
+          before: 134,
+          after: 200
+        },
       },
       2100: {
+        focusAt: 'center',
         perView: 4,
-        gap: 36
+        gap: 36,
+        peek: {
+          before: 134,
+          after: 200
+        },
       },
       3000: {
+        focusAt: 'center',
         perView: 5,
-        gap: 36
+        gap: 36,
+        peek: {
+          before: 134,
+          after: 200
+        },
       }
     },
   }).mount()
