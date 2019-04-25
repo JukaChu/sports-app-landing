@@ -336,16 +336,15 @@
 <script>
   new Glide('.glide', {
     type: "carousel",
-    startAt: 1,
+    startAt: 0,
+    focusAt: 'center',
     gap: 36,
     width: 310,
     slidesWidth: 310,
-    peek: {
-      before: 134,
-      after: 230
-    },
     breakpoints: {
-      600: {perView: 1},
+      600: {perView: 1,
+      peek: 0
+      },
       1260: {
         perView: 2,
         gap: 36
