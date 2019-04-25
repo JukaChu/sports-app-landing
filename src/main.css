@@ -26,9 +26,9 @@ body {
 }
 
 header {
-  min-height: 665px;
   background: var(--header-color) url("./img/header-background.png") no-repeat right;
   background-size: contain;
+  height: 100vh;
 }
 
 h1,
@@ -57,6 +57,7 @@ p {
   flex-shrink: 1;
   max-width: 546px;
   padding: 63px 0 0;
+  height: 100vh;
 }
 
 .description {
