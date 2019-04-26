@@ -644,8 +644,9 @@ p {
 }
 
 .bullets__slides {
-  height: 12px;
-  width: 12px;
+  height: 11px;
+  width: 11px;
+  padding: 0;
   background: var(--black-color);
   opacity: 0.3;
   border-radius: 50%;
